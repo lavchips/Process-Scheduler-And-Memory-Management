@@ -1,0 +1,1 @@
+./scheduler -f processes.txt -a rr -m u -q 10

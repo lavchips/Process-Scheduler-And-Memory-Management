@@ -1,0 +1,16 @@
+0, RUNNING, id=1, remaining-time=30, load-time=10, mem-usage=100%, mem-addresses=[0,1,2,3,4]
+40, EVICTED, mem-addresses=[0,1,2,3,4]
+40, FINISHED, id=1, proc-remaining=3
+40, RUNNING, id=2, remaining-time=40, load-time=10, mem-usage=100%, mem-addresses=[0,1,2,3,4]
+90, EVICTED, mem-addresses=[0,1,2,3,4]
+90, FINISHED, id=2, proc-remaining=2
+90, RUNNING, id=3, remaining-time=20, load-time=10, mem-usage=100%, mem-addresses=[0,1,2,3,4]
+120, EVICTED, mem-addresses=[0,1,2,3,4]
+120, FINISHED, id=3, proc-remaining=1
+120, RUNNING, id=4, remaining-time=30, load-time=10, mem-usage=100%, mem-addresses=[0,1,2,3,4]
+160, EVICTED, mem-addresses=[0,1,2,3,4]
+160, FINISHED, id=4, proc-remaining=0
+Throughput 2, 1, 2
+Turnaround time 96
+Time overhead 5.75 3.48
+Makespan 160

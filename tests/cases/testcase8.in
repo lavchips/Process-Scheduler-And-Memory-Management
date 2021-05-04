@@ -1,0 +1,1 @@
+./scheduler -f timejumps.txt -a rr -s 100 -m p -q 10

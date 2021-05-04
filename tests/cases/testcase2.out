@@ -1,0 +1,20 @@
+0, RUNNING, id=4, remaining-time=30
+10, RUNNING, id=2, remaining-time=40
+20, RUNNING, id=1, remaining-time=20
+30, RUNNING, id=4, remaining-time=20
+40, RUNNING, id=3, remaining-time=30
+50, RUNNING, id=2, remaining-time=30
+60, RUNNING, id=1, remaining-time=10
+70, FINISHED, id=1, proc-remaining=3
+70, RUNNING, id=4, remaining-time=10
+80, FINISHED, id=4, proc-remaining=2
+80, RUNNING, id=3, remaining-time=20
+90, RUNNING, id=2, remaining-time=20
+100, RUNNING, id=3, remaining-time=10
+110, FINISHED, id=3, proc-remaining=1
+110, RUNNING, id=2, remaining-time=10
+120, FINISHED, id=2, proc-remaining=0
+Throughput 2, 0, 4
+Turnaround time 88
+Time overhead 3.25 2.96
+Makespan 120

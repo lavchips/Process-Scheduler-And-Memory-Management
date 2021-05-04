@@ -1,0 +1,31 @@
+./scheduler -f processes.txt -a ff -m u
+
+/****************************/
+./scheduler -f benchmark-cs.txt -a cs -s 100 -m v
+
+better than
+
+./scheduler -f benchmark-cs.txt -a rr -s 100 -m v -q 10
+./scheduler -f benchmark-cs.txt -a ff -s 100 -m v
+
+/******************************/
+./scheduler -f benchmark-cm.txt -a rr -s 100 -m cm -q 10
+
+better than
+
+./scheduler -f benchmark-cm.txt -a rr -s 100 -m v -q 10
+./scheduler -f benchmark-cm.txt -a rr -s 100 -m p -q 10
+
+
+0 1 40 11
+12 2 40 40
+24 3 40 12
+36 4 40 40
+46 5 80 15
+50 6 40 100
+60 7 80 40
+70 8 20 10
+80 9 4 11
+90 10 4 15
+100 11 4 80
+110 12 4 1

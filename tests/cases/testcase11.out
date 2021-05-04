@@ -1,0 +1,38 @@
+0, RUNNING, id=1, remaining-time=30, load-time=10, mem-usage=50%, mem-addresses=[0,1,2,3,4]
+20, RUNNING, id=2, remaining-time=40, load-time=10, mem-usage=100%, mem-addresses=[5,6,7,8,9]
+40, EVICTED, mem-addresses=[0,1,2,3]
+40, RUNNING, id=3, remaining-time=21, load-time=8, mem-usage=100%, mem-addresses=[0,1,2,3]
+58, EVICTED, mem-addresses=[4,5,6,7]
+58, RUNNING, id=4, remaining-time=31, load-time=8, mem-usage=100%, mem-addresses=[4,5,6,7]
+76, EVICTED, mem-addresses=[0,1,8,9]
+76, RUNNING, id=1, remaining-time=21, load-time=8, mem-usage=100%, mem-addresses=[0,1,8,9]
+94, EVICTED, mem-addresses=[2,3,4,5]
+94, RUNNING, id=2, remaining-time=31, load-time=8, mem-usage=100%, mem-addresses=[2,3,4,5]
+112, EVICTED, mem-addresses=[0,1,6,7]
+112, RUNNING, id=3, remaining-time=12, load-time=8, mem-usage=100%, mem-addresses=[0,1,6,7]
+130, EVICTED, mem-addresses=[2,3,8,9]
+130, RUNNING, id=4, remaining-time=22, load-time=8, mem-usage=100%, mem-addresses=[2,3,8,9]
+148, EVICTED, mem-addresses=[0,1,4,5]
+148, RUNNING, id=1, remaining-time=12, load-time=8, mem-usage=100%, mem-addresses=[0,1,4,5]
+166, EVICTED, mem-addresses=[2,3,6,7]
+166, RUNNING, id=2, remaining-time=22, load-time=8, mem-usage=100%, mem-addresses=[2,3,6,7]
+184, EVICTED, mem-addresses=[0,1,8,9]
+184, RUNNING, id=3, remaining-time=3, load-time=8, mem-usage=100%, mem-addresses=[0,1,8,9]
+195, EVICTED, mem-addresses=[0,1,8,9]
+195, FINISHED, id=3, proc-remaining=3
+195, RUNNING, id=4, remaining-time=13, load-time=8, mem-usage=100%, mem-addresses=[0,1,8,9]
+213, EVICTED, mem-addresses=[2,3]
+213, RUNNING, id=1, remaining-time=3, load-time=4, mem-usage=100%, mem-addresses=[2,3,4,5]
+220, EVICTED, mem-addresses=[2,3,4,5]
+220, FINISHED, id=1, proc-remaining=2
+220, RUNNING, id=2, remaining-time=12, load-time=6, mem-usage=90%, mem-addresses=[2,3,4,6,7]
+236, RUNNING, id=4, remaining-time=3, load-time=2, mem-usage=100%, mem-addresses=[0,1,5,8,9]
+241, EVICTED, mem-addresses=[0,1,5,8,9]
+241, FINISHED, id=4, proc-remaining=1
+241, RUNNING, id=2, remaining-time=2, load-time=0, mem-usage=50%, mem-addresses=[2,3,4,6,7]
+243, EVICTED, mem-addresses=[2,3,4,6,7]
+243, FINISHED, id=2, proc-remaining=0
+Throughput 1, 0, 2
+Turnaround time 218
+Time overhead 9.50 7.55
+Makespan 243
